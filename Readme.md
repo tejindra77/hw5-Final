@@ -1,5 +1,8 @@
 # Scrabble Game Implementation
 
+## Version
+1.0.0
+
 ## Author
 Tejindra Khatri
 
