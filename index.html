@@ -1,0 +1,55 @@
+<!-- 
+Author: Tejindra Khatri 
+Copyright (C) 2024 
+COMP 4610 GUI I 
+HW5: Implementing a Bit of Scrabble with Drag-and-Drop 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrabble Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+</head>
+<body>
+    <div id="rack">
+        <!-- Rack area for letter tiles -->
+    </div>
+
+    <div id="board">
+        <!-- Full Scrabble board (15x15) -->
+        <table>
+            <tbody>
+                <!-- Generate rows and columns for the board -->
+                <script>
+                    for (let i = 0; i < 15; i++) {
+                        document.write('<tr>');
+                        for (let j = 0; j < 15; j++) {
+                            document.write(`<td class="board-square drop-target" id="square-${i}-${j}" data-bonus="1"></td>`);
+                        }
+                        document.write('</tr>');
+                    }
+                </script>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="controls">
+        <button id="complete-word">Complete Word</button>
+    </div>
+
+    <div id="score">Score: 0</div>
+
+    <!-- Hidden template for draggable tiles -->
+    <div id="tile-template" class="draggable-tile" style="display: none;">
+        <img src="graphics_data/Scrabble_Tiles/Scrabble_Tile_A.jpg" class="letter-tile">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
