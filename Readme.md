@@ -10,8 +10,8 @@ COMP 4610 GUI I
 HW5: Implementing a Bit of Scrabble with Drag-and-Drop
 
 ## GitHub Repository
-- GitHub URL where your application resides: [Your GitHub URL]
-- Link to your GitHub repository: [Your GitHub Repository Link]
+- GitHub URL where your application resides: https://tejindra77.github.io/hw5-Final/index.html
+- Link to your GitHub repository: https://github.com/tejindra77/hw5-Final
 
 ## Description
 This project implements a simplified version of the Scrabble game using jQuery UI for drag-and-drop functionality. The game allows a user to drag letter tiles from a rack onto a single row of the Scrabble board and calculates the score based on the letters and bonus squares. Additionally, the game validates the formed word using a dictionary.
