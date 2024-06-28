@@ -49,3 +49,11 @@ This project implements a simplified version of the Scrabble game using jQuery U
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+When using or forking this project from GitHub, please give proper credit to the original author by including the following acknowledgment in your project documentation:
+This project is based on the original work by Tejindra Khatri, available at https://github.com/tejindra77/hw5-Final.git
+
+Feel free to adjust the credit and attribution as needed. This README should provide comprehensive details about the project, its features, usage instructions, and licensing information.
+
+
